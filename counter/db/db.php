@@ -4,10 +4,10 @@
 	$session = session_id();
 	//$session = '2k377bij9cm2t0pspj4ed81n82';
 	
-	define('DATABASE_SERVER', 'localhost'); 
+	define('DATABASE_SERVER', 'mariadb'); 
 	define('DATABASE', 'counter');
-	define('DATABASE_USER', 'countuser');
-	define('DATABASE_PASSWORD', '(hWigkQ9wy@jM7!_');
+	define('DATABASE_USER', 'counteruser');
+	define('DATABASE_PASSWORD', 'Test2022');
 	
 	/* Attempt to connect to MySQL database */
 	$mysqli = new mysqli(DATABASE_SERVER, DATABASE_USER, DATABASE_PASSWORD, DATABASE);
@@ -32,8 +32,7 @@
 		$sql = "SELECT * from count WHERE session_id = '$session'";
 		$result = $mysqli->query($sql);
 		if($result->num_rows === 0) {
-			$result->close();
-			$sql = "INSERT INTO count (session_id) VALUES ('$session')";
+			$sql = "INSERT INTO count (session_id, count) VALUES ('$session', 0)";
 			$mysqli->query($sql);
 			$result->close();
 		}
