@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Counter</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script src="../js/script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<button onclick="count(1)">+</button>
+		<button onclick="count(2)">-</button>
+	</div>
+</body>
+</html>
+
+<script>
+	var id = prompt("Enter your session code")
+	connectSession(id)
+	
+	function count(op) {
+		switch(op) {
+			case 1:
+				countUp(id)
+				break;
+			case 2:
+				countDown(id)
+				break;
+			}
+		}
+</script>
