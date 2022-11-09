@@ -1,23 +1,23 @@
 function countUp(session) {
-	fetch("/api?todo=add&session=" + session)
+	fetch("/api/index.php?todo=add&session=" + session)
 }
 
 function countDown(session) {
-	fetch("/api?todo=del&session=" + session)
+	fetch("/api/index.php?todo=del&session=" + session)
 }
 
 function getCount(session) {
-	fetch("/api?todo=get&session=" + session)
+	fetch("/api/index.php?todo=get&session=" + session)
 	.then(res => res.json())
 	.then(res => document.getElementById("number").innerHTML=res)
 }
 
 function getSession() {
-	fetch('/api?todo=session')
+	fetch('/api/index.php?todo=session')
 	.then(res => res.json())
 	.then(res => alert("Session Code: " + res))
 }
 
 function connectSession(session) {
-	fetch('/api?todo=connect&session=' + session)
+	fetch('/api/index.php?todo=connect&session=' + session)
 }
