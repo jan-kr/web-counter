@@ -19,7 +19,7 @@
 
 .container h1 {
 	font-family: Helvetica, sans-serif;
-	font-size: 90vw;
+	font-size: min(90vw, 90vh);
 	font-weight: normal;
 }
 
