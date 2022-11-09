@@ -4,7 +4,7 @@
 	$session = session_id();
 	//$session = '2k377bij9cm2t0pspj4ed81n82';
 	
-	define('DATABASE_SERVER', 'mariadb'); 
+	define('DATABASE_SERVER', 'db');
 	define('DATABASE', 'counter');
 	define('DATABASE_USER', 'counteruser');
 	define('DATABASE_PASSWORD', 'Test2022');

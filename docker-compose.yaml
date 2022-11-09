@@ -7,17 +7,17 @@ services:
       context: ./php
       dockerfile: Dockerfile
     depends_on:
-      - mariadb
+      - db
     ports:
       - 8080:80
-    links:
-      - mariadb
     volumes:
       - "./counter:/var/www/html"
-  mariadb:
-    image: mariadb:latest
+  db:
+    image: mysql:latest
     environment:
-      MARIADB_ROOT_PASSWORD: Test2022?!
+      MYSQL_ROOT_PASSWORD: Test2022?!
+    volumes:
+      - "./setup.sql:/docker-entrypoint-initdb.d/setup.sql"
   adminer:
     image: adminer
     ports:

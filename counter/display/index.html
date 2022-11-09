@@ -1,23 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html lang="de">
 <head>
-	<title>Display</title>
-	<link rel="stylesheet" href="../css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<script type="text/javascript" src="../js/script.js"></script>
+    <title>Display</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <script type="text/javascript" src="../js/script.js"></script>
 </head>
 <body>
-	<div class="container">
-		<h1 id="number"></h1>
-		
-     
-	</div>
+<div class="container">
+    <h1 id="number"></h1>
+</div>
+<script>
+    var id = prompt("Enter your session code")
+    connectSession(id)
+    setInterval(function () {
+        getCount(id)
+    }, 500);
+</script>
 </body>
 </html>
-
-<script>
-var id = prompt("Enter your session code")
-connectSession(id)
-timer = setInterval(function() {
-	getCount(id)
-}, 500);
-</script>
