@@ -24,7 +24,8 @@ body {
 }
 
 .container h1 {
-	font-size: max(80vh, 80vw);
+	font-family: Helvetica, sans-serif;
+	font-size: min(90vw, 90vh);
 	font-weight: normal;
 }
 
