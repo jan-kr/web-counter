@@ -3,8 +3,14 @@
 	padding: 0;
 }
 
+body {
+	font-family: Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
 .container {
 	width: 100%;
+	margin: 10px;
 	text-align: center;
 }
 
@@ -18,9 +24,13 @@
 }
 
 .container h1 {
-	font-family: Helvetica, sans-serif;
-	font-size: 90vw;
+	font-size: max(80vh, 80vw);
 	font-weight: normal;
+}
+
+.container h2 {
+	font-size: 4rem;
+	color: orange;
 }
 
 .container button:first-child {
