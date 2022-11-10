@@ -1,4 +1,4 @@
-let apiurl = "" //"https://counter.krsb.ch"
+let apiurl = "https://counter.krsb.ch"
 let id = prompt("Enter your session code")
 
 document.addEventListener("DOMContentLoaded", () => {
