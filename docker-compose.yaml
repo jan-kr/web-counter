@@ -15,7 +15,7 @@ services:
   db:
     image: mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD: Test2022?!
+      MYSQL_ROOT_PASSWORD: Some PW
     volumes:
       - "./setup.sql:/docker-entrypoint-initdb.d/setup.sql"
   adminer:
