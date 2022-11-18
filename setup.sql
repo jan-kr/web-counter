@@ -1,4 +1,4 @@
-CREATE USER 'counteruser'@'%' IDENTIFIED BY 'Test2022';
+CREATE USER 'counteruser'@'%' IDENTIFIED BY 'Some PW';
 
 DROP DATABASE IF EXISTS `counter`;
 CREATE DATABASE `counter`;
