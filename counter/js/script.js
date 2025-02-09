@@ -1,4 +1,3 @@
-let apiurl = "https://counter.krsb.ch"
 let id = prompt("Enter your session code")
 
 /* Listens to the DOM content and executes setup after loading
@@ -12,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 /* This method queries the api to set the counter value of the session id +1.
  */
 function countUp(session) {
-	fetch(`${apiurl}/api/index.php?session=${session}&todo=add`)
+	fetch(`/api/index.php?session=${session}&todo=add`)
 		.then(console.log("after up"))
 		.catch(`call failed for ${session}`)
 }
@@ -20,7 +19,7 @@ function countUp(session) {
 /* This method queries the api to set the counter value of the session id -1.
  */
 function countDown(session) {
-	fetch(`${apiurl}/api/index.php?session=${session}&todo=del`)
+	fetch(`/api/index.php?session=${session}&todo=del`)
 		.then(console.log("after down"))
 		.catch(`call failed for ${session}`)
 }
@@ -29,7 +28,7 @@ function countDown(session) {
  * session id in the database.
  */
 function getCount(session) {
-	fetch(`${apiurl}/api/index.php?session=${session}&todo=get`)
+	fetch(`/api/index.php?session=${session}&todo=get`)
 		.then(res => res.json())
 		.then(res => document.getElementById('display').innerHTML=res)
 		.catch(`call failed for ${session}`)
@@ -40,7 +39,7 @@ function getCount(session) {
  * this can be used to connect displays and counters to the same session.
  */
 function getSession() {
-	fetch(`${apiurl}/api/index.php?todo=session`)
+	fetch(`/api/index.php?todo=session`)
 		.then(res => res.json())
 		.then(res => alert("Session Code: " + res))
 		.catch(`call failed`)
@@ -50,7 +49,7 @@ function getSession() {
  * entry if it is a new session.
  */
 function buildSession(session) {
-	fetch(`${apiurl}/api/index.php?session=${session}&todo=connect`)
+	fetch(`/api/index.php?session=${session}&todo=connect`)
 		.then("Session built.")
 		.catch(`call failed for ${session}`)
 }
