@@ -1,5 +1,5 @@
 let id = prompt("Enter your session code")
-let api_url = '/api/index.php'
+window.api_url = `${window.api_url || ''}/api/index.php`
 
 /* Listens to the DOM content and executes setup after loading
 * finished.
