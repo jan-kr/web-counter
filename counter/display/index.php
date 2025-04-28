@@ -15,6 +15,6 @@
     <h2>Freie Plätze</h2>
     <h1 id="display"></h1>
 </div>
-<script src="h../js/script.js" type="text/javascript"></script>
+<script src="../js/script.js" type="text/javascript"></script>
 </body>
 </html>
