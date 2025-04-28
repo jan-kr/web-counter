@@ -1,95 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a52178bb-628f-4b0f-9366-c34fc74b9a98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../counter/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/.idea/phpspec.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/.idea/web-counter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/counter/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/counter/api/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/counter/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/counter/counter/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/counter/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/counter/db/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/counter/display/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/counter/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../counter/counter/js/script.js" afterDir="false" />
+    <list default="true" id="dda1afa2-dc73-43d9-bb3a-5d1ca1a09e2d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter/counter/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/counter/counter/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable path="composer" />
-    </execution>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../counter" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
-    <include_path>
-      <path value="$PROJECT_DIR$/vendor/composer" />
-    </include_path>
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="2wMIHmaeubWeELmAV8I39Du5H2A" />
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jan-kr"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:jan-kr/web-counter.git",
+    "accountId": "d08e5ae1-d75c-4d8d-856f-f6d96471a444"
+  }
+}]]></component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.3.11/bin/php" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2wMhxHv75bNXRdlaAdgbU90vtQs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jankressebuch/Development/counter/counter/img&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "v2",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../counter/counter/img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../counter/counter" />
-      <recent name="$PROJECT_DIR$/../counter/c" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/../counter/index.php">
-      <CommandLine>
-        <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="/opt/homebrew/Cellar/php/8.3.11/bin/php" />
-        </PhpTestInterpreterSettings>
-      </CommandLine>
-      <method v="2" />
-    </configuration>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -101,12 +58,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a52178bb-628f-4b0f-9366-c34fc74b9a98" name="Changes" comment="" />
-      <created>1745844930326</created>
+      <changelist id="dda1afa2-dc73-43d9-bb3a-5d1ca1a09e2d" name="Changes" comment="" />
+      <created>1745857594923</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1745844930326</updated>
-      <workItem from="1745844931358" duration="10530000" />
+      <updated>1745857594923</updated>
+      <workItem from="1745857596483" duration="31000" />
     </task>
     <servers />
   </component>

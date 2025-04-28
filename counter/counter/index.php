@@ -15,6 +15,6 @@
     <button id="up">+</button>
     <button id="down">-</button>
 </div>
-<script src="http://<?php echo $_SERVER['HTTP_HOST']; ?>/js/script.js"></script>
+<script src="../js/script.js"></script>
 </body>
 </html>
