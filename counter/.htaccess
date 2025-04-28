@@ -1,0 +1,24 @@
+# Disable directory listing by default
+Options -Indexes
+
+# Allow access to specific file types
+<FilesMatch "\.(php|css|js|png|jpg|jpeg|gif|svg|webp|ico)$">
+    Require all granted
+</FilesMatch>
+
+# Deny access to hidden files (starting with .)
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+
+# Protect the .htaccess itself
+<Files .htaccess>
+    Require all denied
+</Files>
+
+# If you have subdirectories and want PHP to work there too:
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# Redirect everything else to index.php (optional, for routing)
+RewriteRule ^(.*)$ index.php [QSA,L]

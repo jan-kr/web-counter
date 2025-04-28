@@ -15,6 +15,6 @@
     <h2>Freie Plätze</h2>
     <h1 id="display"></h1>
 </div>
-<script src="https://<?php echo $_SERVER['HTTP_HOST']; ?>/js/script.js" type="text/javascript"></script>
+<script src="http://<?php echo $_SERVER['HTTP_HOST']; ?>/js/script.js" type="text/javascript"></script>
 </body>
 </html>
